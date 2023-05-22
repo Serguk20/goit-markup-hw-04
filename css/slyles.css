@@ -178,6 +178,13 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background/people-office\ 1.jpeg);
+  background-size: cover;
+  background-color: #2e2f42;
 }
 
 .main-title {
@@ -317,6 +324,27 @@ body {
   text-align: center;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  gap: 24px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4d5ae5;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background: #4d5ae5;
+}
 /* ====== /TEAM CARDS ===== */
 .cards-info {
   display: flex;
@@ -351,6 +379,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
 /* =======    / FOOTER ======== */
 
 /* ======  PORTFOLIO  ======== */
