@@ -366,7 +366,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px 16px;
+
+  padding: 32px 0;
+}
+.social-list-icon {
+  fill: #f4f4fd;
 }
 
 /* ====== /TEAM CARDS ===== */
@@ -412,7 +416,8 @@ body {
 /* ======= FOOTER ======== */
 
 .page-footer-container {
-  align-items: center;
+  display: flex;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -435,7 +440,17 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
+.footer-main-info {
+  margin-right: 120px;
+}
+.footer-socialmedia-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
 /* =======    / FOOTER ======== */
 
 /* ======  PORTFOLIO  ======== */
