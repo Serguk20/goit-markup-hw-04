@@ -451,6 +451,13 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
+.footer-social-list {
+  gap: 16px;
+}
+.footer-social-icon-fix:hover,
+.footer-social-icon-fix:focus {
+  background-color: #31d0aa;
+}
 /* =======    / FOOTER ======== */
 
 /* ======  PORTFOLIO  ======== */
