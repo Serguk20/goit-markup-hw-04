@@ -175,13 +175,7 @@ body {
 /* ======= / HEADER ======== */
 
 /* ====== HERO ======*/
-.hero-fix {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/background/people-office\ 1.jpeg);
-}
+
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -196,6 +190,9 @@ body {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+}
+.hero {
+  background: url(../images/background/people-office\ 1.jpeg);
 }
 
 .main-title {
@@ -415,7 +412,7 @@ body {
   color: #404bbf;
   border-color: #404bbf;
 }
-.costomer-icon {
+.castomer-icon {
   fill: currentColor;
 }
 /* ==== /SECTION 5 ======= */
