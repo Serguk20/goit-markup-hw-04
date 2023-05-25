@@ -177,6 +177,7 @@ body {
 /* ====== HERO ======*/
 
 .hero {
+  display: flex;
   padding-top: 188px;
   padding-bottom: 188px;
 
@@ -187,7 +188,7 @@ body {
     url(../images/people-office.jpeg);
   background-size: cover;
   background-color: #2e2f42;
-  min-width: 1440px;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
 }
