@@ -177,7 +177,7 @@ body {
 /* ====== HERO ======*/
 
 .hero {
-  display: flex;
+  margin: 0% auto;
   padding-top: 188px;
   padding-bottom: 188px;
 
